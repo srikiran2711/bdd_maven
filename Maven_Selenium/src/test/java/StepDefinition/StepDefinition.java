@@ -16,6 +16,7 @@ public class StepDefinition {
 	    // Write code here that turns the phrase above into concrete actions
 		driver =new FirefoxDriver();
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com");
+		System.out.println("website opened");
 	   
 	}
 
